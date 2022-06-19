@@ -1,0 +1,26 @@
+{
+    "name": "almaviva/brain",
+    "description": "New Brain 2.0",
+    "license": "AlmavivA do Brasil",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+
+    "scripts":{
+        "server": "php -S localhost:8080 -t public"
+    },
+
+    "authors": [
+        {
+            "name": "João Paulo e Valdeson",
+            "email": "vdsantos@almavivadobrasil.com.br"
+        }
+    ],
+    "require": {},
+
+    "config": {
+        "process-timeout": 0
+    }
+}
